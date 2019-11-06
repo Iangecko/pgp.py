@@ -12,7 +12,8 @@ print("""\033[1m
 ╚═╝      ╚═════╝ ╚═╝╚═╝  ╚═╝        ╚═╝   \033[0;2m
 By Gecko
 
-\033[1;91mWARNGING:\033[0;91m User input is not sanitized\nuse are your own risk.\033[0m
+\033[1;91mWARNING:\033[0;91m User input is not sanitized
+use are your own risk.\033[0m
 """)
 
 def run(command, comm=None):
@@ -98,3 +99,4 @@ try:
 except KeyboardInterrupt:
     print("\n\033[31;1mStopped by user\033[0m\n")
     exit()
+
